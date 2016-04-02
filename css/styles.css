@@ -1,0 +1,33 @@
+@import url("http://weloveiconfonts.com/api/?family=zocial");
+[class*="entypo-"]:before{font-family:'entypo', sans-serif;font-size:40px;color:#fff;}
+[class*="entypo-"]:hover:before{opacity:.6}
+.modal-dialog{color:#3c4c66;text-align:left;height:100%;width:100%;padding-left:0px !important;}
+.modal-content{background-color:rgba(255, 255, 255, .9);}
+.modal-header{background-color:rgba(229, 113, 124, .6);color:#fff;}
+.form-control:active, .form-control:focus{box-shadow:4px 4px 8px 0 rgba(0, 0, 0, 0.2);border-color:#3c4c66 !important;background-color:#fff;}
+.modal-content .btn{background-color:#e5717c !important;border:none !important;color:#fff !important;}
+form .btn:hover, form .btn.active, form .btn.focus, form .btn:active.focus, form .btn:active:focus, form .btn:focus{background-color:#fff;color:#3c4c66 !important;}
+.mastfoot{color:#999;color:rgba(255,255,255,.5);position:absolute;bottom:0;width:100%;text-align:center;}
+.social-icons{list-style-type:none;margin:0;padding:0;}
+.social-icons li{display:inline-block;padding-right:15px;}
+.social-icons li:last-of-type{padding-right:0px;}
+.social-icons li a:hover{color:#ffbec0;}
+@media (max-width:767px) and (orientation:landscape){html,body{min-height:300px;}
+.masthead, .cover, .mastfoot{left:0;text-align:left;}
+.cover{}
+h1{font-size:40px !important;}
+}
+@media (min-width:768px){.masthead{position:fixed;top:0;letter-spacing:5px;}
+.cover{position:fixed;}
+.mastfoot{position:fixed;}
+.site-wrapper-inner{vertical-align:middle;}
+.masthead,
+.mastfoot,
+.cover-container{width:100%;}
+@media (min-width:992px){html,body{min-height:500px;max-height:1280px;}
+.masthead,
+.mastfoot,
+.cover-container{width:960px;}
+h1{font-size:85px !important;}
+}
+}
